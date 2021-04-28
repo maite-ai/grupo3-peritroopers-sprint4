@@ -2,6 +2,7 @@
 
 # PeriTroopers.com.ar
 
+## - IMPORTANTE: Consigna... Actualizar el archivo retro.md con las principales conclusiones de la retro del tercer sprint. -
 Realizamos una retrospectiva de cómo funcionamos como equipo durante el Sprint 2, centrandonos en crecer y mejorar en cara a los próximos desafios, y lo realizamos mediante la dinámica de la **estrella de mar**. Las conclusiones a las que llegamos fueron las siguientes:
 
 ##  - Comenzar a hacer -
@@ -28,6 +29,6 @@ Falta de comunicación, formas inadecuadas de tratar a nuestros compañeros de e
   ***   
 
       
-¿Querés ver como trabajamos? Visitá [nuestro tablero de Sprint 3](https://trello.com/b/i5xL1Vfw/sprint-3) en Trello.
+¿Querés ver como trabajamos? Visitá [nuestro tablero de Sprint 4](https://trello.com/b/GVzLZYzx/sprint-4) en Trello.
 
 ![Logo de DH-Troopers](logo-grupo.gif)
