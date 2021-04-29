@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "name":"Cosme",
+        "lastName":"Fulanito",
+        "birthDate":"08/07/2000",
+        "address":"calle Verdadera 321",
+        "email":"admin@dhtroopers.com",
+        "password":"admin321",
+        "userCategory":"admin"
+    },
+    {
+        "id":"2",
+        "name":"Fulanito",
+        "lastName":"Cosme",
+        "birthDate":"19/06/1992",
+        "address":"calle Falsa 123",
+        "email":"mail@client.com",
+        "password":"user123",
+        "userCategory":"user"
+    }
+]
