@@ -14,36 +14,9 @@
                 <section>
                     <h2>Novedades</h2>
                     <article class="news">
-                        <div class="detail">
-                            <div class="pic1">
-                                <a href="./productDetail">
-                                    <img src="images/tecladoRedDragonNovedades.jpg" alt="Teclado Redragon">
-                                    <p class="price">$ 4.571,47</p>
-                                    <p class="detail-prod">Teclado Redragon gamer retroiluminado RGB</p>
-                                </a>
-                            </div>
-                            <div class="pic1">
-                                <a href="./productDetail">
-                                    <img src="images/auricularesCorsairNovedades.jpg" alt="Auriculares Corsair">
-                                    <p class="price">$ 2.574,50</p>
-                                    <p class="detail-prod">Auriculares gamer Corsair LT-453 Bluetooth </p>
-                                </a>
-                            </div>
-                            <div class="pic1">
-                                <a href="./productDetail">
-                                    <img src="images/mouseRedDragonNovedades.jpg" alt="Mouse Red Dragon">
-                                    <p class="price">$ 3.705,17</p>
-                                    <p class="detail-prod">Mouse Redragon gamer multicolor</p>
-                                </a>
-                            </div>
-                            <div class="pic1">
-                                <a href="./productDetail">
-                                    <img src="images/microfonoHyperXNovedades.jpg" alt="Micrófono HyperX">
-                                    <p class="price">$ 10.458,99</p>
-                                    <p class="detail-prod">Micrófono HyperX color rojo y negro con filtro</p>
-                                </a>
-                            </div>
-                        </div>
+                        <% products.forEach(product => { %>
+                            <%- include('partials/product', { product })%>
+                        <% }); %>
                     </article>
                 </section>
                 <br>
