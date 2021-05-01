@@ -1,0 +1,112 @@
+[
+ {
+  "id": "1",
+  "name": "Teclado Redragon ergonómico retroiluminado RGB",
+  "description": "Teclado fachero",
+  "image": "tecladoRedDragonNovedades.jpg",
+  "category": "Teclados",
+  "color": "Negro",
+  "price": "4.571,47"
+ },
+ {
+  "id": "2",
+  "name": "Auriculares Corsair LT-453 Bluetooth",
+  "description": "Auriculares facheros",
+  "image": "auricularesCorsairNovedades.jpg",
+  "category": "Auriculares",
+  "color": "Blanco",
+  "price": "2.574,50"
+ },
+ {
+  "name": "Mouse Redragon multicolor arcoiris",
+  "decription": "Mouse fachero RE facherito",
+  "category": "",
+  "color": "",
+  "price": "3.705,17",
+  "create-button": "Crear",
+  "id": "3",
+  "image": "img-1619902642822.jpg"
+ },
+ {
+  "id": "4",
+  "name": "Micrófono HyperX con filtro",
+  "description": "Micrófono facherito",
+  "image": "microfonoHyperXNovedades.jpg",
+  "category": "Micrófonos",
+  "color": "Rojo",
+  "price": "10.458,99"
+ },
+ {
+  "id": "5",
+  "name": "Teclado Razer retroiluminado RGB",
+  "description": "Algo fachero, qué es no se, pero está fachero",
+  "image": "tecladoRazerPopulares.jpg",
+  "category": "Teclados",
+  "color": "Verde",
+  "price": "5.175,47"
+ },
+ {
+  "id": "6",
+  "name": "Auriculares Corsair HS35 STEREO",
+  "description": "Algo fachero, qué es no se, pero está fachero",
+  "image": "auricularesCorsairPopulares.png",
+  "category": "Auriculares",
+  "color": "Negro",
+  "price": "2.574,50"
+ },
+ {
+  "id": "7",
+  "name": "Mouse Razer diestros",
+  "description": "Algo fachero, qué es no se, pero está fachero",
+  "image": "mouseRazerPopulares.jpg",
+  "category": "Mouse",
+  "color": "Verde",
+  "price": "1.479,50"
+ },
+ {
+  "id": "8",
+  "name": "Micrófono Shure F34-WE Stereo",
+  "description": "Algo fachero, qué es no se, pero está fachero",
+  "image": "microfonoPopulares.jpg",
+  "category": "Micrófonos",
+  "color": "Negro",
+  "price": "25.877,99"
+ },
+ {
+  "id": "9",
+  "name": "Teclado Redragon retroiluminado RGB",
+  "description": "Algo fachero, qué es no se, pero está fachero",
+  "image": "tecladoRedDragonPopulares.jpg",
+  "category": "Teclados",
+  "color": "Negro",
+  "price": "3.987,07"
+ },
+ {
+  "name": "Auriculares Razer con micrófono orejitas Neko retroiluminado",
+  "decription": "Algo fachero, qué es? no se, pero está fachero.. MUY fachero",
+  "category": "",
+  "color": "",
+  "price": "5.656,00",
+  "create-button": "Crear",
+  "id": "10",
+  "image": "auricularesRazerPopulares.png"
+ },
+ {
+  "id": "11",
+  "name": "Mouse óptico HyperX HSC-342",
+  "description": "Algo fachero, qué es no se, pero está fachero",
+  "image": "mouseHyperXPopulares.jpg",
+  "category": "Mouse",
+  "color": "Rosa",
+  "price": "4.487,50"
+ },
+ {
+  "id": "12",
+  "name": "Micrófono Blue Yeti S22 Inalámbrico",
+  "description": "Algo fachero, qué es no se, pero está fachero",
+  "image": "microfonoBluYetiPopulares.jpg",
+  "category": "Micrófono",
+  "color": "Negro",
+  "price": "25.484,77"
+ }
+]

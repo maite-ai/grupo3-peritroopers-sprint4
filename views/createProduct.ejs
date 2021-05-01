@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./../partials/head') %>
+    <%- include('partials/head') %>
 <body>
-    <%- include('./../partials/header') %>
+    <%- include('partials/header') %>
     <main>
         <form action="" method="POST" class="creation">
             <label for="" class="edits-2" id="prod-name">Nombre del Producto:</label>
@@ -16,7 +16,7 @@
                 <option value="">Auriculares</option>
                 <option value="">Teclados</option>
                 <option value="">Mouse</option>
-                <option value="">Micrófono</option>
+                <option value="">Micrófonos</option>
             </select>
             <label for="" class="edits-2">Colores:</label>
             <select name="color" id="color" class="edits">
@@ -28,9 +28,9 @@
             <label for="" class="edits-2">Precio:</label>
             <input type="input" name="price" id="price" class="edits">
             <label for="create-button"></label>
-            <button type="submit" value="Crear" name="create-button" id="create-button" class="send-button">Modificar Producto</button>
+            <button type="submit" value="Crear" name="create-button" id="create-button" class="send-button">Añadir a Catálogo</button>
         </form>
     </main>
-    <%- include('./../partials/footer') %>
+    <%- include('partials/footer') %>
 </body>
 </html>

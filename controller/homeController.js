@@ -1,6 +1,10 @@
+const jsonDB = require('../model/jsonDatabase');
+const productModel = jsonDB('products');
+
 let homeController = {
-    home: (req, res) => { 
-        res.render("index");
+    show: (req, res) => {
+        const products = productModel.all();
+        res.render('index', { products });
     },
 
     faq: (req, res) => {
