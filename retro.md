@@ -2,7 +2,8 @@
 
 # PeriTroopers.com.ar
 
-## - IMPORTANTE: Consigna... Actualizar el archivo retro.md con las principales conclusiones de la retro del tercer sprint. -
+## - IMPORTANTE: Consigna... Actualizar el archivo retro.md con las principales conclusiones de la retro del cuarto sprint. -
+
 Realizamos una retrospectiva de cómo funcionamos como equipo durante el Sprint 4, centrandonos en crecer y mejorar en cara a los próximos desafios, y lo realizamos mediante la dinámica de la **estrella de mar**. Las conclusiones a las que llegamos fueron las siguientes:
 
 ##  - Comenzar a hacer -
