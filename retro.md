@@ -3,28 +3,21 @@
 # PeriTroopers.com.ar
 
 ## - IMPORTANTE: Consigna... Actualizar el archivo retro.md con las principales conclusiones de la retro del tercer sprint. -
-Realizamos una retrospectiva de cómo funcionamos como equipo durante el Sprint 2, centrandonos en crecer y mejorar en cara a los próximos desafios, y lo realizamos mediante la dinámica de la **estrella de mar**. Las conclusiones a las que llegamos fueron las siguientes:
+Realizamos una retrospectiva de cómo funcionamos como equipo durante el Sprint 4, centrandonos en crecer y mejorar en cara a los próximos desafios, y lo realizamos mediante la dinámica de la **estrella de mar**. Las conclusiones a las que llegamos fueron las siguientes:
 
 ##  - Comenzar a hacer -
 
-Luego de algunas diferencias en el Sprint anterior que mencionaremos más adelante, entendimos que es fundamental mantener una comunicación fluida e intentar llegar a acuerdos sobre las diferencias cuando las mismas surgen, y no cuando la situación se vuelve insostenible.
+Comenzar a hacer: Si bien ya veníamos realizando pair-programming, hacia el final de este sprint comenzamos a trabajar los tres en simultáneo, lo cual nos pareció meramente productivo, ya que todos pudimos aportar nuestro punto de vista en la realización de las tareas, y profundizando el conocimiento sobre los puntos a cumplir. A partir de allí nos pareció adecuado adoptar esta práctica siempre que los tiempos lo permitan.
 
 ## - Más de -
 
-Al igual que en el sprint anterior, queremos seguir sumando reuniones, discusiones e intercambio de ideas, puestas en común, brainstorming, toma de decisiones en conjunto.
+Debatiendo lo que creemos que hacemos bien como equipo, y por lo tanto queremos seguir manteniéndolo, mencionamos reuniones, discusiones e intercambio de ideas, puestas en común, brainstorming, toma de decisiones en conjunto.
 
 ## - Continuar haciendo -
 
-Es de vital importancia mantener las reuniones semanales entre todos, donde debatimos ideas, realizamos propuestas, conversamos sobre las diferencias y seguimos avanzando como equipo. Trabajamos muy bien individualmente cada uno en la parte del proyecto que le toca, pero también nos realizamos consultas, hacemos pair-programming y puestas en común sobre en lo que estamos avanzando.
+Tras una baja en el equipo, durante este sprint nos propusimos hacer hincapié en todos aquellos aspectos importantes en consolidarnos como equipo. Fue así como alcanzamos mayor confianza entre nosotros, comunicación mucho mas fluida, y trabajo en conjunto.  Creemos que es sumamente importante seguir trabajando de esta forma, conversando, debatiendo, exponiendo ideas.
   
-## - Dejar de hacer -
-
-Durante el proceso del Sprint 2 nos encontramos con grandes debilidades como equipo, que creemos sucedieron por falta de comunicación y objetivos grupales y personales poco claros. No pudimos ponernos de acuerdo en varios puntos del proyecto, y al momento de querer salvar esas diferencias ya era tarde, próximos a la fecha de entrega. Esto culminó en una baja en el equipo, por lo que aprendimos de esta situación la importancia de tener una comunicación mucho más fluida desde el comienzo del módulo.
-
-
-## - Menos de -
-
-Falta de comunicación, formas inadecuadas de tratar a nuestros compañeros de equipo, discusiones sin sentido.
+En cuanto a **“Dejar de hacer“ y “Menos de”**, concluimos que a raíz de la situación que vivimos como equipo en el sprint anterior, logramos dejar de reproducir todo aquello que nos propusimos evitar, y no repetir. Esto fue muy importante a la hora de tomar decisiones y actuar para alcanzar nuestros objetivos, consolidándonos como equipo. Si bien durante este sprint no se presentaron situaciones como en el anterior, tenemos muy presente cual es el camino que queremos tomar en conjunto para que aquello no vuelva a ocurrir.
   
   ***   
 
