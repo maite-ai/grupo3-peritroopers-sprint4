@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head') %>
+<body>
+    <%- include('partials/header') %>
+    <main>
+        <form action="/products/<%= product.id %>?_method=PUT" method="POST" class="creation" enctype="multipart/form-data">
+            <label for="" class="edits-2" id="prod-name">Nombre del Producto:</label>
+            <input type="text" name="name" id="name" class="edits" value="<%= product.name %>">
+            <label for="" class="edits-2">Descripción:</label>
+            <textarea name="decription" id="decription" cols="30" rows="10" class="edits" value="<%= product.description %>"><%= product.description %></textarea>
+            <label for="" class="edits-2">Imágen:</label>
+            <input type="file" name="image" id="image">
+            <input type="hidden" name="oldImage" id="image" value="<%= product.image %>">
+            <label for="" class="edits-2">Categoría:</label>
+            <select name="category" id="category" class="edits" value="<%= product.category %>">
+                <option value="">Auriculares</option>
+                <option value="">Teclados</option>
+                <option value="">Mouse</option>
+                <option value="">Micrófono</option>
+            </select>
+            <label for="" class="edits-2">Colores:</label>
+            <select name="color" id="color" class="edits" value="<%= product.color %>">
+                <option value="">Rojo</option>
+                <option value="">Verde</option>
+                <option value="">Celeste</option>
+                <option value="">Negro</option>
+            </select>
+            <label for="" class="edits-2">Precio:</label>
+            <input type="input" name="price" id="price" class="edits" value="<%= product.price %>">
+            <label for="create-button"></label>
+            <button type="submit" value="Crear" name="create-button" id="create-button" class="send-button">Modificar Producto</button>
+        </form>
+    </main>
+    <%- include('partials/footer') %>
+</body>
+</html>

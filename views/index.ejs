@@ -14,9 +14,13 @@
                 <section>
                     <h2>Novedades</h2>
                     <article class="news">
-                        <% products.forEach(product => { %>
-                            <%- include('partials/product', { product })%>
-                        <% }); %>
+                        <div class="detail">
+                            <% if(locals && locals.products){ %>
+                                <% products.forEach(product => { %>
+                                    <%- include('partials/product', { product })%>
+                                <% }); %>
+                            <% } %>
+                        </div>
                     </article>
                 </section>
                 <br>
@@ -39,62 +43,11 @@
                     <h2>Populares</h2>
                     <article class="populars">
                         <div class="gallery-container">
-                            <div class="popular-item">
-                                <a href="./productDetail">
-                                    <img src="images/tecladoRazerPopulares.jpg" alt="">
-                                    <p class="price">$ 5.175,47</p>
-                                    <p class="detail-prod">Teclado Razer gamer retroiluminado RGB</p>
-                                </a>
-                            </div>
-                            <div class="popular-item">
-                                <a href="./productDetail">
-                                    <img src="images/auricularesCorsairPopulares.png" alt="">
-                                    <p class="price">$ 2.574,50</p>
-                                    <p class="detail-prod">Auriculares gamer Corsair HS35 STEREO </p>
-                                </a>
-                            </div>
-                            <div class="popular-item">
-                                <a href="./productDetail">
-                                    <img src="images/mouseRazerPopulares.jpg" alt="">
-                                    <p class="price">$ 1.479,50</p>
-                                    <p class="detail-prod">Mouse Razer gamer diestros</p>
-                                </a>
-                            </div>
-                            <div class="popular-item">
-                                <a href="./productDetail">
-                                    <img src="images/microfonoPopulares.jpg" alt="">
-                                    <p class="price">$ 25.877,99</p>
-                                    <p class="detail-prod">Micrófono Shure F34-WE Stereo</p>
-                                </a>
-                            </div>
-                            <div class="popular-item">
-                                <a href="./productDetail">
-                                    <img src="images/tecladoRedDragonPopulares.jpg" alt="">
-                                    <p class="price">$ 3.987,07</p>
-                                    <p class="detail-prod">Teclado Redragon gamer retroiluminado RGB</p>
-                                </a>
-                            </div>
-                            <div class="popular-item">
-                                <a href="./productDetail">
-                                    <img src="images/auricularesRazerPopulares.png" alt="">
-                                    <p class="price">$ 5.656,00</p>
-                                    <p class="detail-prod">Auriculares Razer con micrófono orejitas Neko retroiluminado</p>
-                                </a>
-                            </div>
-                            <div class="popular-item">
-                                <a href="./productDetail">
-                                    <img src="images/mouseHyperXPopulares.jpg" alt="">
-                                    <p class="price">$ 4.487,50</p>
-                                    <p class="detail-prod">Mouse óptico HyperX HSC-342</p>
-                                </a>
-                            </div>
-                            <div class="popular-item">
-                                <a href="./productDetail">
-                                    <img src="images/microfonoBluYetiPopulares.jpg" alt="">
-                                    <p class="price">$ 25.484,77</p>
-                                    <p class="detail-prod">Micrófono Blue Yeti S22 Inalámbrico</p>
-                                </a>
-                            </div>
+                            <% if(locals && locals.products){ %>
+                                <% products.forEach(product => { %>
+                                    <%- include('partials/product', { product })%>
+                                <% }); %>
+                            <% } %>
                         </div>
                     </article>
                 </section>
