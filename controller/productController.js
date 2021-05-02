@@ -14,17 +14,18 @@ let productController = {
         }
     },
     create: (req, res) => {
-        console.log("Entre a create.ejs");
         res.render('createProduct');
     },
 
     // Función que simula el almacenamiento (?)
     store: (req, res) => {
+        console.log(req.files);
         // Atrapa los contenidos del formulario... Ponele
         const product = req.body;
         // Verificar si viene un archivo, para nombrarlo.
         product.image = req.file ? req.file.filename : '';
-
+        console.log(product.image);
+        console.log(product);
         // Cuidado sólo mando el cuerpo del FORM, el Id me lo asigna el Modelo  
         productModel.create(product);
             res.redirect('/');
@@ -32,6 +33,7 @@ let productController = {
 
     edit: (req, res) => {
         let product = productModel.find(req.params.id);
+        console.log(product);
         if(product){
             res.render("editProduct", {product});
         }else {
@@ -47,6 +49,9 @@ let productController = {
             if(req.body.image === undefined) {
                 product.image = product.oldImage;
             }
+
+            console.log(product.image);
+            console.log(product);
 
         delete product.oldImage;
 
