@@ -54,7 +54,6 @@ let productController = {
             console.log(product);
 
         delete product.oldImage;
-
         productModel.update(product);
         res.redirect('/');
     },

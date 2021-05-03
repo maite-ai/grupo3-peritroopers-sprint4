@@ -18,12 +18,11 @@
   "price": "2.574,50"
  },
  {
-  "name": "Mouse Redragon multicolor arcoiris",
-  "decription": "Mouse fachero RE facherito",
-  "category": "",
-  "color": "",
+  "name": "Mouse Redragon multicolor retroiluminado",
+  "description": "Mouse de bonitos colores arcoiris",
+  "category": "Mouse",
+  "color": "Negro",
   "price": "3.705,17",
-  "create-button": "Crear",
   "id": "3",
   "image": "img-1619902642822.jpg"
  },
@@ -83,11 +82,10 @@
  },
  {
   "name": "Auriculares Razer con micrófono orejitas Neko retroiluminado",
-  "decription": "Algo fachero, qué es? no se, pero está fachero.. MUY fachero",
-  "category": "",
-  "color": "",
+  "decription": "Auriculares con orejitas... Re kawaii!!!",
+  "category": "Auriculares",
+  "color": "Verde",
   "price": "5.656,00",
-  "create-button": "Crear",
   "id": "10",
   "image": "auricularesRazerPopulares.png"
  },
@@ -103,10 +101,19 @@
  {
   "id": "12",
   "name": "Micrófono Blue Yeti S22 Inalámbrico",
-  "description": "Algo fachero, qué es no se, pero está fachero",
+  "description": "Algo fachero, qué es? no se! pero está fachero",
   "image": "microfonoBluYetiPopulares.jpg",
   "category": "Micrófono",
   "color": "Negro",
   "price": "25.484,77"
+ },
+ {
+  "name": "Auriculares Gamer Logitech G433 Sonido 7.1 Pc Ps4 Xbox One",
+  "description": "Disfruta de un increíble sonido 7.1 envolvente con, que crea un ambiente de juego espacial de alta precisión y te permite oír al enemigo acechándote o recibir pistas de habilidades especiales. Personaliza cada canal direccional con el software Logitech G HUB. Incluso puedes programar distintos perfiles de sonido para cada juego. Tendrás que conectar la PC mediante el convertidor de audio digital (DAC) USB incluido para activarlo.",
+  "category": "Auriculares",
+  "color": "Negro",
+  "price": "11.490 ",
+  "id": "13",
+  "image": "img-1620003575234.png"
  }
 ]
