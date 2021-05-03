@@ -18,10 +18,17 @@
   "price": "2.574,50"
  },
  {
+<<<<<<< HEAD
+  "name": "Mouse Redragon multicolor arcoiris",
+  "decription": "",
+  "category": "",
+  "color": "",
+=======
   "name": "Mouse Redragon multicolor retroiluminado",
   "description": "Mouse de bonitos colores arcoiris",
   "category": "Mouse",
   "color": "Negro",
+>>>>>>> bd2e35b34faf11a60a299f6ef373f4336b957bf0
   "price": "3.705,17",
   "id": "3",
   "image": "img-1619902642822.jpg"
