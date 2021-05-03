@@ -821,6 +821,9 @@ h3 {
                         border: none;
                         border-radius: 4px;
                     }
+                    .pay-button button:hover{
+                        box-shadow: 0px 0px 5px gray;
+                    }
                 .map{
                     margin: auto;
                 }
@@ -869,7 +872,16 @@ h3 {
                 color: #fff;
                 border-radius: 4px;
             }
-
+            #edit-button:hover, #delete-button:hover{
+                background-color: rgb(80, 80, 207);
+                box-shadow: 0px 0px 5px gray;
+            }
+            #delete-button{
+                width: 30px;
+                height: 30px;
+                margin-top: 5px;
+                padding: 0;
+            }
 /* ================================= FAQ ======================================== */
 
     .faq-container {
@@ -935,7 +947,6 @@ h3 {
     padding: 10px;
 }
 .edits-2{
-    font-size: 23px;
     text-align: left;
 }
     #image{
@@ -1345,16 +1356,21 @@ h3 {
 
     .product{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        max-width: 1200px;
+        margin: auto;
     }
             .product-image img{
-                max-width: 50%;
-                margin: 10px 0;
+                height: 580px;
+                width: 580px;
+                margin: 25px 0;
+                margin-right: 50px;
                 margin-bottom: -3px;
             }
         .product-info{
             display: flex;
             flex-direction: column;
+            max-width: 50%;
         }
             .price-rate{
                 width: 80%;
@@ -1362,6 +1378,13 @@ h3 {
                 display: flex;
                 align-items: center;
             }
+                .price-rate p{
+                    margin: 0;
+                    padding: 0;
+                }
+                .rate{
+                    margin: 0;
+                }
             .pay-button-map{
                 width: 90%;
                 flex-direction: column;
@@ -1378,6 +1401,7 @@ h3 {
                     flex-direction: row;
                     justify-content: space-between;
                     margin-top: 20px;
+                    margin-left: 20px;
                 }
                 .p-pay{
                     margin-right: 30px;
@@ -1431,7 +1455,7 @@ h3 {
         padding: 1% 0;
     }
     .detail-button{
-        width: 30%;
-        margin-left: -0.5%;
+        width: 50%;
+        margin-left: 0;
     }
 }
