@@ -882,6 +882,13 @@ h3 {
                 margin-top: 5px;
                 padding: 0;
             }
+
+            #delete-button i {
+                background-color: rgb(110, 110, 237);
+                color: #fff;
+                margin: auto;
+                padding: 0px;
+            }
 /* ================================= FAQ ======================================== */
 
     .faq-container {
